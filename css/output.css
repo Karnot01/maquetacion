@@ -1,0 +1,33 @@
+/*! tailwindcss v3.x | MIT License | https://tailwindcss.com */
+@layer base {
+  *, ::before, ::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+  }
+  html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    line-height: inherit;
+  }
+}
+@layer components {
+}
+@layer utilities {
+  .m-4 { margin: 1rem; }
+  .p-4 { padding: 1rem; }
+  .text-center { text-align: center; }
+  .text-3xl { font-size: 1.875rem; line-height: 2.25rem; }
+  .font-bold { font-weight: 700; }
+  .bg-gray-100 { background-color: #f3f4f6; }
+  .bg-gray-900 { background-color: #111827; }
+  .text-white { color: #fff; }
+  .text-blue-400 { color: #60a5fa; }
+  .text-blue-600 { color: #2563eb; }
+  .mb-6 { margin-bottom: 1.5rem; }
+  .mx-auto { margin-left: auto; margin-right: auto; }
+}
